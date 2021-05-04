@@ -8,13 +8,14 @@ const Header = () => {
         <h1>
           <Link to="/">AGA Shop!</Link>
         </h1>
-        <div class="ui secondary  right menu">
+        <div class="ui secondary right menu">
           <Link to="/" class="active item">
             Home
           </Link>
           <a
             href="https://github.com/patricktunez123/aga-shop-with-react-redux"
             target="_blank"
+            rel="noreferrer"
             class="item"
           >
             Source code
@@ -23,6 +24,7 @@ const Header = () => {
             href="https://www.linkedin.com/in/patrick-tunezerwane-0a901ba8/"
             class="item"
             target="_blank"
+            rel="noreferrer"
           >
             Developer
           </a>
