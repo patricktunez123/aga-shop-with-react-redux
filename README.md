@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have also used Redux for state managing [Check out the demo](https://aga-shop-with-react-redux.vercel.app)
 
 ## Available Scripts
 
