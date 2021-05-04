@@ -23,6 +23,7 @@ const ProductDetails = () => {
     return () => {
       dispatch(removeProduct());
     };
+    // eslint-disable-next-line
   }, [id, dispatch]);
 
   return (
