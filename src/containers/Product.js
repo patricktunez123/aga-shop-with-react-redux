@@ -18,7 +18,7 @@ const Product = () => {
 
   useEffect(() => {
     fetchAllProducts();
-  }, []);
+  });
 
   const productList = products.map((product) => {
     const { id, title, image, price, category } = product;

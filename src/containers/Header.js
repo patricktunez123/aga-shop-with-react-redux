@@ -35,7 +35,9 @@ const Header = () => {
                 <i class="search link icon"></i>
               </div>
             </div>
-            <a class="ui item disabled">Create account</a>
+            <a href="/" class="ui item disabled">
+              Create account
+            </a>
           </div>
         </div>
       </div>

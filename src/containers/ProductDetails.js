@@ -23,7 +23,7 @@ const ProductDetails = () => {
     return () => {
       dispatch(removeProduct());
     };
-  }, [id]);
+  }, [id, dispatch]);
 
   return (
     <div className="ui grid container">
@@ -44,7 +44,9 @@ const ProductDetails = () => {
               <div className="column rp">
                 <h1>{product.payload.title}</h1>
                 <h2>
-                  <a className="ui teal tag label">${product.payload.price}</a>
+                  <a href="/" className="ui teal tag label">
+                    ${product.payload.price}
+                  </a>
                 </h2>
                 <h3 className="ui brown block header">
                   {product.payload.category}
